@@ -14,5 +14,72 @@
     margin: 100px auto 0px;
     border-radius: 10px;
     padding: 30px;
-    color: #ff5945;
+    color: #080303;
+ }
+ .app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding: 30px;
+ }
+ .title{
+    padding: 20px 0 ;
+ }
+ .title h2{
+    font-size:25px;
+ }
+ #options{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin: 20px;
+    justify-content:space-between ;
+ }
+
+ .btn{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    color: #222;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #222;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+    }
+ .btn:hover{
+    background: #001e4d;
+    color: #fff;
+    
+    
+ }
+ .btn:active{
+    transform: scale(0.9);
+ }
+
+ #btn-container{
+    background: #001e4d;
+    color: #fff;
+    font-size: 15PX;
+    font-weight: 600;
+    width: 150px;
+    border: 0;
+    margin: 20px auto 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+
+    &:hover{
+        background: #c7284a;
+        color: #01050c;
+    }
+    &:active{
+        transform: scale(0.9);
+    }
  }
